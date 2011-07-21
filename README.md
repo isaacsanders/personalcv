@@ -6,4 +6,4 @@ know.
 
 ##Additional Info
 
-Hosted at personalcv.heroku.com
+Coming soon!: Hosted at personalcv.heroku.com
