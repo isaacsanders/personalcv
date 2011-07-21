@@ -1,8 +1,10 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
+.resume {
+  font-family: "Arial"; }
+  .resume #academics h1 {
+    background-color: lime; }
+  .resume #personal_achievements h1 {
+    background-color: red; }
+  .resume #work_experience h1 {
+    background-color: blue; }
+  .resume #contact h1 {
+    background-color: yellow; }
