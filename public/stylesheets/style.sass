@@ -1,30 +1,55 @@
-.resume
+#resume
   font-family: "Arial"
-  width: 250px
   position: absolute
   top: 50%
-  margin:
-    left: 50px
-    top: -200px
-  h1
-    text-align: center
-    margin: 0
-  #academics
-    background-color: #00ff00
-  #personal_achievements
-    background-color: #ff0000
-  #work_experience
-    background-color: #0000ff
-  #contact
-    background-color: #ffff00
-  .one-word
+  margin-top: -200px
+  .aspects
+    margin-left: 50px
+    width: 250px
     h1
+      text-align: center
+      margin: 0
       height: 100px
+    .one-word h1
       line-height: 100px
-  .two-word
-    h1
-      height: 100px
+    .two-word h1
       line-height: 50px
+  .content
+    position: relative
+    margin:
+      left: 300px
+      right: 50px
+      top: -400px
+      bottom: 400px
+    height: 400px
+    display: none
+    ul
+      margin:
+        top: 0px
+        bottom: 400px
+      padding:
+        left: 20px
+        top: 10px
+        bottom: 10px
+        right: 10px
+      li
+        padding:
+          left: 10px
+        position: inner
+
+ul
+  list-style:
+    type: square
+    position: inside
+
+.academics
+  background-color: #00ff00
+.personal_achievements
+  background-color: #ff0000
+.work_experience
+  background-color: #0000ff
+.contact
+  background-color: #ffff00
 
 html
   background: url(/images/portrait.jpg) no-repeat center center fixed

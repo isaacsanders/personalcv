@@ -1,27 +1,53 @@
-.resume {
+#resume {
   font-family: "Arial";
-  width: 250px;
   position: absolute;
   top: 50%;
-  margin-left: 50px;
   margin-top: -200px; }
-  .resume h1 {
-    text-align: center;
-    margin: 0; }
-  .resume #academics {
-    background-color: lime; }
-  .resume #personal_achievements {
-    background-color: red; }
-  .resume #work_experience {
-    background-color: blue; }
-  .resume #contact {
-    background-color: yellow; }
-  .resume .one-word h1 {
-    height: 100px;
-    line-height: 100px; }
-  .resume .two-word h1 {
-    height: 100px;
-    line-height: 50px; }
+  #resume .aspects {
+    margin-left: 50px;
+    width: 250px; }
+    #resume .aspects h1 {
+      text-align: center;
+      margin: 0;
+      height: 100px; }
+    #resume .aspects .one-word h1 {
+      line-height: 100px; }
+    #resume .aspects .two-word h1 {
+      line-height: 50px; }
+  #resume .content {
+    position: relative;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: -400px;
+    margin-bottom: 400px;
+    height: 400px;
+    display: none; }
+    #resume .content ul {
+      margin-top: 0px;
+      margin-bottom: 400px;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px; }
+      #resume .content ul li {
+        padding-left: 10px;
+        position: inner; }
+
+ul {
+  list-style-type: square;
+  list-style-position: inside; }
+
+.academics {
+  background-color: lime; }
+
+.personal_achievements {
+  background-color: red; }
+
+.work_experience {
+  background-color: blue; }
+
+.contact {
+  background-color: yellow; }
 
 html {
   background: url(/images/portrait.jpg) no-repeat center center fixed;
