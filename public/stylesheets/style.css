@@ -1,53 +1,57 @@
 #resume {
-  font-family: "Arial";
   position: absolute;
   top: 50%;
-  margin-top: -200px; }
-  #resume .aspects {
-    margin-left: 50px;
-    width: 250px; }
-    #resume .aspects h1 {
-      text-align: center;
-      margin: 0;
-      height: 100px; }
-    #resume .aspects .one-word h1 {
-      line-height: 100px; }
-    #resume .aspects .two-word h1 {
-      line-height: 50px; }
-  #resume .content {
-    position: relative;
-    margin-left: 300px;
-    margin-right: 50px;
-    margin-top: -400px;
-    margin-bottom: 400px;
-    height: 400px;
-    display: none; }
-    #resume .content ul {
-      margin-top: 0px;
-      margin-bottom: 400px;
-      padding-left: 20px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-right: 10px; }
-      #resume .content ul li {
-        padding-left: 10px;
-        position: inner; }
+  right: 0;
+  left: 0;
+  margin-top: -200px;
+  font-family: "Arial"; }
+
+.aspects {
+  margin-left: 50px;
+  width: 250px; }
+  .aspects h1 {
+    text-align: center;
+    margin: 0;
+    height: 100px; }
+  .aspects.one-word h1 {
+    line-height: 100px; }
+  .aspects.two-word h1 {
+    line-height: 50px; }
+
+.content {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  left: 300px;
+  height: 400px;
+  display: none;
+  overflow: auto; }
+  .content ul {
+    height: auto;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; }
+    .content ul li {
+      padding-left: 10px;
+      position: inner; }
 
 ul {
   list-style-type: square;
   list-style-position: inside; }
 
 .academics {
-  background-color: lime; }
+  background-color: rgba(0, 255, 0, 0.6); }
 
 .personal_achievements {
-  background-color: red; }
+  background-color: rgba(255, 0, 0, 0.6); }
 
 .work_experience {
-  background-color: blue; }
+  background-color: rgba(0, 0, 255, 0.6); }
 
 .contact {
-  background-color: yellow; }
+  background-color: rgba(255, 255, 0, 0.6); }
 
 html {
   background: url(/images/portrait.jpg) no-repeat center center fixed;

@@ -1,41 +1,44 @@
 #resume
-  font-family: "Arial"
   position: absolute
   top: 50%
+  right: 0
+  left: 0
   margin-top: -200px
-  .aspects
-    margin-left: 50px
-    width: 250px
-    h1
-      text-align: center
-      margin: 0
-      height: 100px
-    .one-word h1
-      line-height: 100px
-    .two-word h1
-      line-height: 50px
-  .content
-    position: relative
+  font-family: "Arial"
+
+.aspects
+  margin-left: 50px
+  width: 250px
+  h1
+    text-align: center
+    margin: 0
+    height: 100px
+  &.one-word h1
+    line-height: 100px
+  &.two-word h1
+    line-height: 50px
+
+.content
+  position: absolute
+  top: 0
+  right: 50px
+  left: 300px
+  height: 400px
+  display: none
+  overflow: auto
+  ul
+    height: auto
     margin:
-      left: 300px
-      right: 50px
-      top: -400px
-      bottom: 400px
-    height: 400px
-    display: none
-    ul
-      margin:
-        top: 0px
-        bottom: 400px
+      top: 0px
+    padding:
+      left: 20px
+      top: 10px
+      bottom: 10px
+      right: 10px
+    li
       padding:
-        left: 20px
-        top: 10px
-        bottom: 10px
-        right: 10px
-      li
-        padding:
-          left: 10px
-        position: inner
+        left: 10px
+      position: inner
 
 ul
   list-style:
@@ -43,13 +46,13 @@ ul
     position: inside
 
 .academics
-  background-color: #00ff00
+  background-color: rgba(0,255,0, 0.6)
 .personal_achievements
-  background-color: #ff0000
+  background-color: rgba(255, 0, 0, 0.6)
 .work_experience
-  background-color: #0000ff
+  background-color: rgba(0, 0, 255, .6)
 .contact
-  background-color: #ffff00
+  background-color: rgba(255, 255, 0, 0.6)
 
 html
   background: url(/images/portrait.jpg) no-repeat center center fixed
