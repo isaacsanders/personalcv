@@ -6,21 +6,28 @@ $(function() {
     ,   windowWidth   = $(window).width();
 
     if($target.is(':visible')){
-      $target.hide();
+      $target.css({
+        right   : '50px',
+        display : 'none'})
+      .animate({
+        right   : windowWidth-300,
+      }, 250, function() {
+        $target.find('table').fadeIn();
+      });
       return;
     }
 
     contentBlocks.hide();
 
-    $target.find('ul').hide();
+    $target.find('table').hide();
     $target.css({
       right   : windowWidth-300,
       display : 'block'})
     .animate({
       right   : '50px',
     }, 250, function() {
-      $target.find('ul').fadeIn();
+      $target.find('table').fadeIn();
     });
-  })
+  });
 });
 })(jQuery);

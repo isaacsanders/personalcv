@@ -7,6 +7,7 @@
   font-family: "Arial"; }
 
 .aspects {
+  cursor: pointer;
   margin-left: 50px;
   width: 250px; }
   .aspects h1 {
@@ -26,32 +27,52 @@
   height: 400px;
   display: none;
   overflow: auto; }
-  .content ul {
-    height: auto;
-    margin-top: 0px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px; }
-    .content ul li {
-      padding-left: 10px;
-      position: inner; }
 
 ul {
+  height: auto;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-right: 10px;
   list-style-type: square;
   list-style-position: inside; }
+  ul li {
+    padding-left: 10px; }
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+td {
+  height: auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px; }
+
+p {
+  width: 500px; }
 
 .academics {
-  background-color: rgba(0, 255, 0, 0.6); }
+  background-color: rgba(144, 231, 94, 0.4); }
+  .academics:hover {
+    background-color: #90e75e; }
 
 .personal_achievements {
-  background-color: rgba(255, 0, 0, 0.6); }
+  background-color: rgba(252, 141, 89, 0.4); }
+  .personal_achievements:hover {
+    background-color: #fc8d59; }
 
 .work_experience {
-  background-color: rgba(0, 0, 255, 0.6); }
+  background-color: rgba(109, 186, 225, 0.4); }
+  .work_experience:hover {
+    background-color: #6dbae1; }
 
 .contact {
-  background-color: rgba(255, 255, 0, 0.6); }
+  background-color: rgba(229, 213, 100, 0.4); }
+  .contact:hover {
+    background-color: #e5d564; }
 
 html {
   background: url(/images/portrait.jpg) no-repeat center center fixed;
