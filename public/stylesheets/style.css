@@ -45,11 +45,11 @@ h4 {
   margin-bottom: 0px; }
 
 td {
-  height: auto;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  vertical-align: top; }
 
 p {
   width: 500px; }
@@ -80,5 +80,5 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')"; }
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/portrait.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/portrait.jpg', sizingMethod='scale')"; }
